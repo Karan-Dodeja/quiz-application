@@ -2,6 +2,12 @@ package com.example.myapplication
 
 object Constants {
 
+    const val USER_NAME : String = "User_name"
+
+    const val TOTAL_QUESTIONS: String = "total_questions"
+
+    const val CORRECT_ANSWER: String = "correct_answers"
+
     fun getQuestions(): ArrayList<Question> {
         val questionsList = ArrayList<Question>()
 
